@@ -1,0 +1,7 @@
+python-dotenv
+pytorch
+openai
+langchain
+langchain-openai
+unstructured
+sentence-transformers
