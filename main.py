@@ -75,11 +75,24 @@ def main():
 
     question = "가장 많이 일어난 범죄의 유형을 알려줘"
     ai_msg = rag_chain.invoke({"question": question, "chat_history": chat_history})
+    print()
+    print('Q1 :', question)
     print(ai_msg)
+    
     chat_history.extend([HumanMessage(content=question), ai_msg])
     print()
+    
     second_question = "그 범죄의 판례 번호를 3개만 뽑아줘"
     ai_msg = rag_chain.invoke({"question": second_question, "chat_history": chat_history})
+    print('Q2 :', second_question)
+    print(ai_msg)
+
+    chat_history.extend([HumanMessage(content=question), ai_msg])
+    print()
+
+    third_question = "그럼 이것들의 평균형량을 알려줘"
+    ai_msg = rag_chain.invoke({"question": third_question, "chat_history": chat_history})
+    print('Q3 :', third_question)
     print(ai_msg)
 
 
