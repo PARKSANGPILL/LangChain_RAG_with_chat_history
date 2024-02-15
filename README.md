@@ -3,7 +3,7 @@
 
 ___
   
-### 내가 사용한 데이터
+### 사용한 데이터
 [법률/규정 (판결서, 약관 등) 텍스트 분석 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=580)  
 
 ___
